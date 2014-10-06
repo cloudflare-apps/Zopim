@@ -1,0 +1,23 @@
+{
+  "resources": {
+    "body": [
+      {
+        "type": "script",
+        "src": "./eager-zopim.js"
+      },
+      {
+        "type": "script",
+        "contents": "EagerZopim.init(INSTALL_OPTIONS)"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "embed": {
+        "title": "Live Chat Widget Embed ID",
+        "description": "Get this from Zopim (for example, 2TbODfaZREteJ2aLG8QSv4rCFlXHK3pm)",
+        "type": "string"
+      }
+    }
+  }
+}
