@@ -14,9 +14,10 @@
   "options": {
     "properties": {
       "embed": {
-        "title": "Live Chat Widget Embed ID",
-        "description": "Get this from Zopim (for example, 2TbODfaZREteJ2aLG8QSv4rCFlXHK3pm)",
-        "type": "string"
+        "title": "Live Chat Widget Embed",
+        "description": "Get this from the Widget Settings page in the Zopim Dashboard.",
+        "type": "string",
+        "format": "textarea"
       }
     }
   }

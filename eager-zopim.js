@@ -6,7 +6,7 @@ window.EagerZopim = {
 
     try {
       options.id = options.embed.replace(/((.|[\r\n])*)\/\/v2\.zopim\.com\/\?([a-zA-Z\d]{32})((.|[\r\n])*)/, '$3');
-    } catch(){}
+    } catch(e) {}
 
     if (options.id && typeof options.id == 'string' && options.id.length === 32) {
       window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
